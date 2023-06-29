@@ -1,0 +1,36 @@
+* {font-family: 'Dark';}
+
+a {
+    text-decoration: none;
+    color: rgb(241, 12, 154) !important;
+    font-weight: 500;
+
+}
+p {
+    text-decoration: none;
+    color: rgb(68, 6, 212) !important;    
+    font-weight: 500;
+}
+span
+  {
+    text-decoration: none;
+    color: rgb(238, 12, 12) !important;
+    font-weight: 500;
+
+}
+
+a:hover {
+    color: rgb(33, 179, 4) !important;
+    text-decoration:green;
+}
+u1 {list-style-type: none;}
+
+hr {
+    scroll-margin-top: 0px;
+    margin-bottom: 5%;
+
+}
+
+#mainMenu{ visibility: hidden; }
+footer {visibility: hidden;}
+header {visibility: hidden;}
