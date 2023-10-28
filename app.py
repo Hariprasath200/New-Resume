@@ -10,6 +10,7 @@ resume_file = current_dir / "assets" / "Hari CV.pdf"
 profile_pic = current_dir / "assets" / "profile.jpg"
 SOCIAL_MEDIA=current_dir/ "1.JPG" 
 
+
 PAGE_TITLE = "My CV | HARI's Website"
 PAGE_ICON = ":sparkles:"
 NAME = "HARIPRASATH S"
@@ -20,6 +21,7 @@ SOCIAL_MEDIA = {
     " 🔗LinkedIn": "https://www.linkedin.com/in/hariprasath-s-58144b191",
     "⚡Instagram": "https://instagram.com/hari_child?igshid=ZGUzMzM3NWJiOQ==",
     "💬WhatsApp":  "https://wa.me/qr/XVFHTPMOBNH4B1",
+    "📄Certificate verification": "https://coursera.org/share/9dfd3ec817e80e7fb62663055e85e620"
     
     
 }
@@ -55,26 +57,63 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-
-st.write("#")
-st.subheader("Experience")
-st.write(
-    """ 
-    * ✅ Strong hands on experience and knowledge in PYTHON.
-    * ✅ Good understanding of statistical principles and their respective applications.
-    * ✅ Excellent team-player and displaying strong sense of initiative on tasks
-    """
-)
-
 st.write("#")
 st.subheader("Hard Skills")
 st.write(
 """
 - 👨🏻‍💻 Programming : Python.
-- 🟢 Frameworks  : Django,Streamlit,Flask.
-- ⚪ Frontend     : Html,Css.
+- 🟢 Frameworks  : Django,Streamlit.
+- ⚪ Frontend    : Html,Css.
+- ⚪ DataBase    : Sql.
+- ⚪ Version Control : Git,GitHub.         
 - 🔴 Basic     : MS Office 
 """
+)
+st.write("#")
+st.subheader("CERTIFICATES")
+st.write(
+    """
+- Coursera (Google)
+     - Crash Course On Python.   
+       - This Course Provided By Google.
+
+
+"""
+
+    """
+- UDEMY Python Course.
+     - Complete Python 2023 For Absolute Beginners.   
+       
+
+
+"""
+
+"""
+
+    
+    
+- Certificate of Participation.
+     - Advances in Image Processing using Python.
+
+
+"""
+
+"""
+- Domestic Data Entry
+    
+"""
+
+"""
+-  Master Class
+      
+     -  Build a Chatbot using Artificial Intelligence and    Machine Learning.
+"""
+
+
+"""
+-  Master Class
+     -  Upskill for the Post-Recession Software Engineering World
+    """
 )
 
 st.write("#")
@@ -123,34 +162,7 @@ st.write(
 """
 )
 
-st.write("#")
-st.subheader("CERTIFICATES")
-st.write(
-    """
-    
-    - Certificate of Participation.
-     - Advances in Image Processing using Python.
 
-
-"""
-
-"""
-- Domestic Data Entry
-    
-"""
-
-"""
--  Master Class
-      
-     -  Build a Chatbot using Artificial Intelligence and    Machine Learning.
-"""
-
-
-"""
--  Master Class
-     -  Upskill for the Post-Recession Software Engineering World
-    """
-)
 
 st.write("#")
 st.subheader("PROJECT")
